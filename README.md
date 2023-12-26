@@ -1,4 +1,5 @@
 # ExtendScript-Array
+
 ES6 Array functions for ExtendScript (ES3)
 
 This project was originally intended for learning purposes.
@@ -7,9 +8,10 @@ This version can be used with Adobe programs such as Illustrator, InDesign/InCop
 
 These are possible implementation of the JavaScript built-in Array functions.
 
-## The available methods are:
+## The available methods
 
 ### Standard methods
+
 - `at()` - Returns the item at that index, allowing for positive and negative integers
 - `copyWithin()` - Copies part of an array to another location in the same array.
 - `entries()` - Returns a new array iterator object that contains the key/value pairs for each index in the array.
@@ -43,6 +45,7 @@ These are possible implementation of the JavaScript built-in Array functions.
 - `with()` - The copying version of using the bracket notation to change the value of a given index
 
 ### Non-standard methods
+
 *(They are mostly methods in some stage of tc39 proposal phase)*
 
 - `clear()` - Removes all array elements.
@@ -64,6 +67,6 @@ These are possible implementation of the JavaScript built-in Array functions.
 - `sum()` - The sum of all array values
 - `unique()` - A` function that returns an array with only unique elements.
 
-## Externals   
+## Externals
 
-* `Object.deepCopy()` - Method implemented in the 'ExtendScript-Object' repository that makes a deep copy of an array.
+- `Object.deepCopy()` - Method implemented in the 'ExtendScript-Object' repository that makes a deep copy of an array.
